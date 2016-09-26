@@ -8,6 +8,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+// Chandra Gundam (200275643)
+//September 22nd, 2016
 
 namespace COmp1004_Assignment1
 {
@@ -17,6 +19,8 @@ namespace COmp1004_Assignment1
         {
             InitializeComponent();
         }
+
+        //Calculates the Sales Bonus
 
         private void CalculateButton_Click(object sender, EventArgs e)
         {
@@ -50,6 +54,7 @@ namespace COmp1004_Assignment1
 
         }
 
+        // Clears the entered Info
         private void ClearButton_Click(object sender, EventArgs e)
         {
             clearAll();
@@ -64,7 +69,8 @@ namespace COmp1004_Assignment1
             TotalSalesTextBox.Text = " ";
             SalesBonusTextBox.Text = " ";
         }
-
+        
+        // Prints the Messsage 
         private void PrintButton_Click(object sender, EventArgs e)
         {
             if ((SalesBonusTextBox.Text) != "")
@@ -74,6 +80,7 @@ namespace COmp1004_Assignment1
                 MessageBox.Show("Please fill the form");
         }
 
+        // English radio button
         private void EnglishRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             EmployeesNameLabel.Text = "Employee's Name";
@@ -86,6 +93,7 @@ namespace COmp1004_Assignment1
             PrintButton.Text = "Print";
         }
 
+        // French Radio Button
         private void FrenchRadioButton_CheckedChanged(object sender, EventArgs e)
         {
             EmployeesNameLabel.Text = "Le nom de l'employé";

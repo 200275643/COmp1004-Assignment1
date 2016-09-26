@@ -16,7 +16,7 @@ namespace COmp1004_Assignment1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MailOrder());
+            Application.Run(new SplashForm());
         }
     }
 }

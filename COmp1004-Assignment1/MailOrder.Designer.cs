@@ -43,8 +43,8 @@
             this.PrintButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
             this.LanguagesGroupBox = new System.Windows.Forms.GroupBox();
-            this.EnglishRadioButton = new System.Windows.Forms.RadioButton();
             this.FrenchRadioButton = new System.Windows.Forms.RadioButton();
+            this.EnglishRadioButton = new System.Windows.Forms.RadioButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.LanguagesGroupBox.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -135,8 +135,9 @@
             // 
             // SalesBonusTextBox
             // 
-            this.SalesBonusTextBox.Location = new System.Drawing.Point(177, 391);
+            this.SalesBonusTextBox.Location = new System.Drawing.Point(177, 395);
             this.SalesBonusTextBox.Name = "SalesBonusTextBox";
+            this.SalesBonusTextBox.ReadOnly = true;
             this.SalesBonusTextBox.Size = new System.Drawing.Size(100, 20);
             this.SalesBonusTextBox.TabIndex = 10;
             // 
@@ -171,22 +172,10 @@
             this.LanguagesGroupBox.TabStop = false;
             this.LanguagesGroupBox.Text = "Languages";
             // 
-            // EnglishRadioButton
-            // 
-            this.EnglishRadioButton.AutoSize = true;
-            this.EnglishRadioButton.Location = new System.Drawing.Point(43, 19);
-            this.EnglishRadioButton.Name = "EnglishRadioButton";
-            this.EnglishRadioButton.Size = new System.Drawing.Size(59, 17);
-            this.EnglishRadioButton.TabIndex = 0;
-            this.EnglishRadioButton.TabStop = true;
-            this.EnglishRadioButton.Text = "English";
-            this.EnglishRadioButton.UseVisualStyleBackColor = true;
-            this.EnglishRadioButton.CheckedChanged += new System.EventHandler(this.EnglishRadioButton_CheckedChanged);
-            // 
             // FrenchRadioButton
             // 
             this.FrenchRadioButton.AutoSize = true;
-            this.FrenchRadioButton.Location = new System.Drawing.Point(43, 53);
+            this.FrenchRadioButton.Location = new System.Drawing.Point(7, 63);
             this.FrenchRadioButton.Name = "FrenchRadioButton";
             this.FrenchRadioButton.Size = new System.Drawing.Size(58, 17);
             this.FrenchRadioButton.TabIndex = 1;
@@ -194,6 +183,18 @@
             this.FrenchRadioButton.Text = "French";
             this.FrenchRadioButton.UseVisualStyleBackColor = true;
             this.FrenchRadioButton.CheckedChanged += new System.EventHandler(this.FrenchRadioButton_CheckedChanged);
+            // 
+            // EnglishRadioButton
+            // 
+            this.EnglishRadioButton.AutoSize = true;
+            this.EnglishRadioButton.Location = new System.Drawing.Point(6, 30);
+            this.EnglishRadioButton.Name = "EnglishRadioButton";
+            this.EnglishRadioButton.Size = new System.Drawing.Size(59, 17);
+            this.EnglishRadioButton.TabIndex = 0;
+            this.EnglishRadioButton.TabStop = true;
+            this.EnglishRadioButton.Text = "English";
+            this.EnglishRadioButton.UseVisualStyleBackColor = true;
+            this.EnglishRadioButton.CheckedChanged += new System.EventHandler(this.EnglishRadioButton_CheckedChanged);
             // 
             // pictureBox1
             // 
